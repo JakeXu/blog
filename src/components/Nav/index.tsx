@@ -183,11 +183,11 @@ const Nav = ({ isHome }: Props) => {
       setIsMounted(true)
     }, 100)
 
-    // window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
       clearTimeout(timeout)
-      // window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('scroll', handleScroll)
     }
   }, [])
 
