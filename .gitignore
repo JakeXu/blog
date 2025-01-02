@@ -16,6 +16,7 @@ build.zip
 # misc
 .idea
 .DS_Store
+.next
 /.env
 /.env.local
 /.env.development.local
